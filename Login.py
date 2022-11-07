@@ -1,4 +1,4 @@
-def upper(nbname):
+def UpperCase(nbname):
     b=0
     fname=""
     for let in nbname:
@@ -9,7 +9,7 @@ def upper(nbname):
     fname=fname+str(b)
     return fname
 
-def no_upper(bname):
+def NoUpperCase(bname):
     a=0
     b=0
     fname=""
@@ -31,8 +31,8 @@ def no_upper(bname):
 def Create_Login():
     rname=str(input("first and last name: "))
     if any(let.isupper() for let in rname):
-        print(upper(rname))
+        print(UpperCase(rname))
     else:
-        print(no_upper(rname))
+        print(NoUpperCase(rname))
 
 Create_Login()
