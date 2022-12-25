@@ -36,3 +36,4 @@ def Create_Login():
         print(NoUpperCase(rname))
 
 Create_Login()
+#coś nie gra jak się wpisze duże litery. Też miało robic numer po loginie z dwóch długości
